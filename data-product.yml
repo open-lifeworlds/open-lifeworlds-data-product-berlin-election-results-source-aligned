@@ -15,6 +15,8 @@ input_ports:
       license: CC-BY-3.0-Namensnennung
       updated: 2024-06-09
     files:
+      - https://download.statistik-berlin-brandenburg.de/62d50b33eabbeefa/3857c08baebd/DL_BE_EU2024.xlsx
+      - https://download.statistik-berlin-brandenburg.de/1e6c52e90e75a93a/eb718bb186be/DL_BE_2_EU2024.xlsx
       - https://download.statistik-berlin-brandenburg.de/d1b4bf0e83308c9d/253954d40e86/SB_B07-05-01_2024j05_BE.xlsx
       - https://download.statistik-berlin-brandenburg.de/cfd80313bf809692/18fa0a3f2a3f/DL_BE_EU2024_EU2019.xlsx
       - https://download.statistik-berlin-brandenburg.de/967df1cce75bb59d/812bfda698bf/DL_BE_EU_2024_Strukturdaten.xlsx
