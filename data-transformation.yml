@@ -7965,3 +7965,51 @@ input_ports:
             skip_rows: 8
             skip_cols: 1
             head: 12
+      - source_file_name: SB_B07-01-05_2017j04_BE.xlsx
+        target_file_name: berlin-election-results-federal-election-2017-electoral-statistics.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-1-eligible-voters-berlin.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: 2017_total, type: float }
+              - { name: 2017_male, type: float }
+              - { name: 2017_female, type: float }
+              - { name: 2013_total, type: float }
+              - { name: 2013_male, type: float }
+              - { name: 2013_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 10
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-1-eligible-voters-berlin-east.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: 2017_total, type: float }
+              - { name: 2017_male, type: float }
+              - { name: 2017_female, type: float }
+              - { name: 2013_total, type: float }
+              - { name: 2013_male, type: float }
+              - { name: 2013_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 21
+            head: 10
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-1-eligible-voters-berlin-west.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: 2017_total, type: float }
+              - { name: 2017_male, type: float }
+              - { name: 2017_female, type: float }
+              - { name: 2013_total, type: float }
+              - { name: 2013_male, type: float }
+              - { name: 2013_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 34
+            head: 10

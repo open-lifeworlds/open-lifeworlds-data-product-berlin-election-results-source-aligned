@@ -710,6 +710,9 @@ output_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-report-2-3-registered-german-inhabitants-above-18.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-report-2-4-registered-inhabitants-below-65-in-sgb-II-communities-of-need.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-second-votes.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-statistics-1-eligible-voters-berlin-east.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-statistics-1-eligible-voters-berlin-west.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-statistics-1-eligible-voters-berlin.csv
 observability:
   quality:
   operational:
