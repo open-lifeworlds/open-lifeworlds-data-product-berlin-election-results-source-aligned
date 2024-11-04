@@ -6,6 +6,7 @@ from lib.extract.data_copier import copy_data
 from lib.extract.data_extractor import extract_data
 from lib.load.data_loader import load_data
 from lib.tracking_decorator import TrackingDecorator
+from lib.transform.data_csv_converter import convert_data_to_csv
 
 file_path = os.path.realpath(__file__)
 script_path = os.path.dirname(file_path)
@@ -51,7 +52,7 @@ def main(argv):
     # Transform
     #
 
-    # TODO Add transformation steps in ./lib/transform and call them here
+    convert_data_to_csv(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
 
     #
     # Load
